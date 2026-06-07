@@ -1,7 +1,8 @@
 import { useState, useCallback } from "react";
 import { Copy, Check } from "lucide-react";
 
-const CONTRACT = "CATFRGxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+// Updated with your working Solana Contract Address
+const CONTRACT = "2GXYCvBpVfXsSmppoPdNXZ5Tt8oKNqxqfYxdUG4xcURN";
 
 const slices = [
   { label: "Stakers", pct: 40, color: "#FFD700" },

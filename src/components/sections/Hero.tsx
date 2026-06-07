@@ -1,7 +1,8 @@
 import heroBg from "@/assets/hero-bg.png";
 
-const RAYDIUM_URL = "https://raydium.io/swap/";
-const DEXTOOLS_URL = "https://www.dextools.io/app/en/solana";
+// Updated with your active Solana Contract Address links
+const RAYDIUM_URL = "https://raydium.io/swap/?inputMint=sol&outputMint=2GXYCvBpVfXsSmppoPdNXZ5Tt8oKNqxqfYxdUG4xcURN";
+const DEXTOOLS_URL = "https://www.dextools.io/app/en/solana/pair-explorer/2GXYCvBpVfXsSmppoPdNXZ5Tt8oKNqxqfYxdUG4xcURN";
 
 export default function Hero() {
   return (
